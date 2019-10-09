@@ -1,6 +1,7 @@
 console.log("We're learning about objects");
 
 // Lightning Exercise 1
+// 1
 const car ={
     make: "Ford",
     model: "Mustang",
@@ -10,12 +11,12 @@ const car ={
 
 console.log("car", car);
 
-// Lightning Exercise 2
+//  2
 const animalNames = ["Kippers", "Jack", "Gypsy", "Angus", "Seymour Bouts", "Sharky"]
 
 console.log("animalNames", animalNames);
 
-// Lightning Exercise 3
+// 3
 const Robert = {
     age: 33,
     nickname: "Babe",
@@ -39,3 +40,20 @@ const Michelle = {
 const familyMembers = [Robert, Xander, Devin, Michelle];
 
 console.log("familyMembers", familyMembers);
+
+
+// Lightning Exercises 2
+
+// 1
+
+const wardrobe = {
+    height: 80,
+    manufacturer: "Killibrew & Sons",
+    contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
+    depth: 38,
+    width: 50
+}
+
+wardrobe.material = "Cedar"
+
+console.log(wardrobe);
