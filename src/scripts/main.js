@@ -1,6 +1,7 @@
 console.log("We're learning about objects");
 
 // Lightning Exercise 1
+// 1
 const car ={
     make: "Ford",
     model: "Mustang",
@@ -10,12 +11,12 @@ const car ={
 
 console.log("car", car);
 
-// Lightning Exercise 2
+//  2
 const animalNames = ["Kippers", "Jack", "Gypsy", "Angus", "Seymour Bouts", "Sharky"]
 
 console.log("animalNames", animalNames);
 
-// Lightning Exercise 3
+// 3
 const Robert = {
     age: 33,
     nickname: "Babe",
@@ -40,7 +41,7 @@ const familyMembers = [Robert, Xander, Devin, Michelle];
 
 console.log("familyMembers", familyMembers);
 
-
+// Lightning Exercise 3
 
 const empireStateBuilding = {
     stories: 103,
@@ -55,16 +56,18 @@ const empireStateBuilding = {
     architect: "Shreve, Lamb & Harmon"
 }
 
-// Lightning Exercise 1
+// 1
 console.log(empireStateBuilding.stories);
 console.log(empireStateBuilding.height);
-console.log(empireStateBuilding.address);
 console.log(empireStateBuilding.squareFeet);
-console.log(empireStateBuilding.constructionDate);
-console.log(empireStateBuilding.cost);
-console.log(empireStateBuilding.owner);
 console.log(empireStateBuilding.eastWestLength)
 console.log(empireStateBuilding.northSouthLength);
-console.log(empireStateBuilding.architect);
 
-// Lightning Exercise 2
+
+// 2
+
+console.log(empireStateBuilding["address"]);
+console.log(empireStateBuilding["constructionDate"]);
+console.log(empireStateBuilding["cost"]);
+console.log(empireStateBuilding["owner"]);
+console.log(empireStateBuilding["architect"]);
