@@ -41,19 +41,33 @@ const familyMembers = [Robert, Xander, Devin, Michelle];
 
 console.log("familyMembers", familyMembers);
 
+// Lightning Exercise 3
 
-// Lightning Exercises 2
-
-// 1
-
-const wardrobe = {
-    height: 80,
-    manufacturer: "Killibrew & Sons",
-    contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
-    depth: 38,
-    width: 50
+const empireStateBuilding = {
+    stories: 103,
+    height: 1453,
+    address: "350 Fifth Avenue, Manhattan, New York 10118",
+    squareFeet: 2768591,
+    constructionDate: 1931,
+    cost: 40948900,
+    owner: "Empire State Realty Trust",
+    eastWestLength: 424,
+    northSouthLength: 187,
+    architect: "Shreve, Lamb & Harmon"
 }
 
-wardrobe.material = "Cedar"
+// 1
+console.log(empireStateBuilding.stories);
+console.log(empireStateBuilding.height);
+console.log(empireStateBuilding.squareFeet);
+console.log(empireStateBuilding.eastWestLength)
+console.log(empireStateBuilding.northSouthLength);
 
-console.log(wardrobe);
+
+// 2
+
+console.log(empireStateBuilding["address"]);
+console.log(empireStateBuilding["constructionDate"]);
+console.log(empireStateBuilding["cost"]);
+console.log(empireStateBuilding["owner"]);
+console.log(empireStateBuilding["architect"]);
