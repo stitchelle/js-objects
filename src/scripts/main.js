@@ -41,6 +41,22 @@ const familyMembers = [Robert, Xander, Devin, Michelle];
 
 console.log("familyMembers", familyMembers);
 
+// Lightning Exercises 2
+
+// 1
+
+const wardrobe = {
+    height: 80,
+    manufacturer: "Killibrew & Sons",
+    contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
+    depth: 38,
+    width: 50
+}
+
+wardrobe.material = "Cedar"
+
+console.log(wardrobe); 
+
 // Lightning Exercise 3
 
 const empireStateBuilding = {
