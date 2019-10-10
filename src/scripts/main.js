@@ -79,6 +79,9 @@ console.log(empireStateBuilding.squareFeet);
 console.log(empireStateBuilding.eastWestLength)
 console.log(empireStateBuilding.northSouthLength);
 
+// correct way of doing dot notation
+console.log(`The empire state building is ${empireStateBuilding.height} high with ${empireStateBuilding.stories} stories. The east west length is ${empireStateBuilding.eastWestLength} and the north south length is ${empireStateBuilding.northSouthLength}. It is ${empireStateBuilding.squareFeet} square footage.`)
+
 
 // 2
 
@@ -87,3 +90,13 @@ console.log(empireStateBuilding["constructionDate"]);
 console.log(empireStateBuilding["cost"]);
 console.log(empireStateBuilding["owner"]);
 console.log(empireStateBuilding["architect"]);
+
+// correct way of doing square bracket Notification
+
+const addressKey = "address"
+const constructionKey = "constructionDate"
+const ownerKey = "owner"
+const costKey = "cost"
+const architectKey = "architect"
+
+console.log(`The empire state building is at ${empireStateBuilding[addressKey]}. It was built in ${empireStateBuilding[constructionKey]} by ${empireStateBuilding[architectKey]}. It cost ${empireStateBuilding[costKey]} and is owned by ${empireStateBuilding[ownerKey]}.`)
